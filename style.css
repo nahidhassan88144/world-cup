@@ -110,6 +110,11 @@ a {
 
 }
 
+#blog-item:active {
+    background: red;
+    color: #fff;
+}
+
 .image-gallary {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
