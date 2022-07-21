@@ -48,6 +48,18 @@ a {
     padding-left: 75px;
 }
 
+.banner-caption .span {
+    color: #D73F82;
+}
+
+.banner-caption span {
+    font-size: 18px;
+    width: 0ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: text 10s steps(20) infinite;
+}
+
 .banner-heading {
     font-size: 60px;
 }
@@ -260,6 +272,17 @@ a {
 .footer-nav-item:hover {
     color: #ffa50088;
     transition: 1s;
+}
+
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+
+    50% {
+        width: 20ch;
+    }
 }
 
 /* ========responsive======== */
@@ -492,8 +515,6 @@ a {
     .content-item {}
 
     /* =====main======== */
-
-    .list-item {}
 }
 
 @media screen and (min-width: 993px) {
@@ -509,7 +530,7 @@ a {
         margin-right: 57%;
     }
 
-    .navbar {
-        width: 59%;
+    .upcoming-navbar {
+        width: 45%;
     }
 }
